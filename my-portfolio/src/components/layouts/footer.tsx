@@ -1,22 +1,12 @@
 "use client";
 import React from "react";
-import Image from "next/image";
-import Link from "next/link";
 
 const footer = () => {
   return (
     <footer className="w-full bg-[#1d1d1d]">
       <div className="2xl:mx-auto max-w-screen-2xl p-8 py-6 lg:py-8 mt-5">
         <div className="md:flex md:justify-between">
-          <div className="mb-6 md:mb-0">
-            <a href="/" className="">
-              <img
-                src="/images/logo_box_greyed.svg"
-                className="h-8"
-                alt="logo"
-              />
-            </a>
-          </div>
+          <div className="mb-6 md:mb-0"></div>
           <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
             <div>
               <h2 className="mb-6 text-sm font-semibold uppercase text-white">
@@ -83,9 +73,9 @@ const footer = () => {
         <hr className="my-6 sm:mx-auto border-gray-700 lg:my-8" />
         <div className="sm:flex sm:items-center sm:justify-between">
           <span className="text-sm sm:text-center text-gray-400">
-            © 2023{" "}
+            © 2024{" "}
             <a href="https://flowbite.com/" className="hover:underline">
-              Employ Booster™
+              Portfolio™
             </a>
             . All Rights Reserved.
           </span>

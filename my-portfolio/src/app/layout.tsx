@@ -7,7 +7,7 @@ import App from "@/components/layouts/app";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Employ Booster: Land dollar jobs",
+  title: "Portfolio: Land a jobs",
   description: "In progress...",
 };
 

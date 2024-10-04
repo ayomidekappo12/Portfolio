@@ -32,6 +32,7 @@ const config = {
     },
     extend: {
       colors: {
+        "custom-Color": "#e8e3de",
         "primary-color": "#54428E",
         "primary-blue": "#243c5a",
         "primary-grey": "#5A5A5A",
