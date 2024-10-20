@@ -32,6 +32,7 @@ const config = {
     },
     extend: {
       colors: {
+        "light-peach": "#FFDAB9",
         "custom-Color": "#e8e3de",
         "primary-color": "#54428E",
         "primary-blue": "#243c5a",

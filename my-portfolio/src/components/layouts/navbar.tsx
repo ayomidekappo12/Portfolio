@@ -10,35 +10,47 @@ const Navbar = () => {
 
   return (
     <div className="flex flex-col">
-      <div className="flex flex-row max-w-screen-2xl w-full justify-between items-center gap-8 h-18 px-8 my-4 transform scale-70">
-        <Link href="/">
+      <div className="flex max-w-screen-2xl w-full justify-between items-center gap-8 h-18 md:px-2.5 lg:px-8 my-4 scale-70">
+        <div className="flex md:hidden items-start">
           <Image
-            src="/images/logo2.svg"
+            src="/images/Rectangle 40.png"
             alt="logo"
             width={107}
             height={35}
-            className="m-1 brightness-110 contrast-125"
+            className="pl-2"
             loading="lazy"
           />
-        </Link>
-        <div className="flex items-center gap-6 ml-80 pl-2">
+        </div>
+        <div className="hidden md:flex items-start">
+          <Link href="/">
+            <Image
+              src="/images/logo2.svg"
+              alt="logo"
+              width={107}
+              height={35}
+              className="m-1 brightness-110 contrast-125"
+              loading="lazy"
+            />
+          </Link>
+        </div>
+        <div className="hidden lg:flex items-center mx-auto pl-20">
           <Image
             src="/images/portfolio2.svg"
             alt="logo"
             width={107}
             height={35}
-            className="w-40 brightness-110 contrast-125 scale-150"
+            className="w-auto h-20 brightness-110 contrast-125 scale-75"
             loading="lazy"
           />
         </div>
-        <div className="ml-auto scroll-px-3.5 text-lg font-medium">
-          <ul className="flex space-x-12 subpixel-antialiased">
+        <div className="ml-auto scroll-px-3.5 text-lg font-medium px-3 items-end">
+          <ul className="flex space-x-12 subpixel-antialiased hover:cursor-pointer hover:font-semibold">
             <li className="mb-4">
               <Link
                 href="/"
-                className={`hover:cursor-pointer hover:font-semibold ${
-                  pathname === "/" ? "text-blue-500 font-bold" : ""
-                }`}
+                className={`${
+                  pathname === "/" ? "text-blue-500 font-bold" : "text-gray-700"
+                } hover:text-green-200 transition-colors duration-200`}
               >
                 Home
               </Link>
@@ -46,9 +58,11 @@ const Navbar = () => {
             <li className="mb-4">
               <Link
                 href="/portfolio"
-                className={`hover:cursor-pointer hover:font-semibold ${
-                  pathname === "/portfolio" ? "text-blue-500 font-bold" : ""
-                }`}
+                className={`${
+                  pathname === "/portfolio"
+                    ? "text-blue-500 font-bold"
+                    : "text-gray-700"
+                } hover:text-green-200 transition-colors duration-200`}
               >
                 Portfolio
               </Link>
@@ -56,9 +70,11 @@ const Navbar = () => {
             <li className="mb-4">
               <Link
                 href="/contact"
-                className={`hover:cursor-pointer hover:font-semibold ${
-                  pathname === "/contact" ? "text-blue-500 font-bold" : ""
-                }`}
+                className={`${
+                  pathname === "/contact"
+                    ? "text-blue-500 font-bold"
+                    : "text-gray-700"
+                } hover:text-green-200 transition-colors duration-200`}
               >
                 Contact
               </Link>

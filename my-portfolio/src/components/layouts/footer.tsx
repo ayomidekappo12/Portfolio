@@ -18,12 +18,12 @@ const footer = () => {
                     href="https://tailwindcss.com/"
                     className="hover:underline"
                   >
-                    Contact us
+                    Github
                   </a>
                 </li>
                 <li>
                   <a href="https://flowbite.com/" className="hover:underline">
-                    Knowledge base
+                    Portfolio
                   </a>
                 </li>
               </ul>
@@ -35,7 +35,7 @@ const footer = () => {
               <ul className="text-gray-400 font-medium">
                 <li className="mb-4">
                   <a
-                    href="https://github.com/themesberg/flowbite"
+                    href="https://www.linkedin.com/in/ayomide-kappo-olufemik12/"
                     className="hover:underline "
                   >
                     LinkedIn
@@ -43,7 +43,7 @@ const footer = () => {
                 </li>
                 <li>
                   <a
-                    href="https://discord.gg/4eeurUVvTy"
+                    href="https://x.com/ayomidekappo34"
                     className="hover:underline"
                   >
                     Twitter
@@ -108,7 +108,10 @@ const footer = () => {
               </svg>
               <span className="sr-only">Discord community</span>
             </a>
-            <a href="#" className="text-gray-500 hover:text-white ms-5">
+            <a
+              href="https://x.com/ayomidekappo34"
+              className="text-gray-500 hover:text-white ms-5"
+            >
               <svg
                 className="w-4 h-4"
                 aria-hidden="true"
@@ -143,7 +146,10 @@ const footer = () => {
               </svg>
               <span className="sr-only">GitHub account</span>
             </a>
-            <a href="#" className="text-gray-500 hover:text-white ms-5">
+            <a
+              href="https://github.com/ayomidekappo12"
+              className="text-gray-500 hover:text-white ms-5"
+            >
               <svg
                 className="w-4 h-4"
                 aria-hidden="true"
